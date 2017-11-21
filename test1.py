@@ -6,3 +6,6 @@ while x < 11:
     x += 1
 
 print(x)
+
+name = input(print("What is your name?")
+print(name)			 
