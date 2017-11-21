@@ -1,5 +1,6 @@
 print("Hello World")
 
-x = input(print("give a value to print"))
-
-print(x)
+x = 0
+while x < 11:
+    print(x)
+    x += 1
