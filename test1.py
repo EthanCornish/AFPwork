@@ -5,7 +5,6 @@ print(name)
 
 age = int(input(print("Age?")))
 
-
 #The comma simply outputs the result
 print('Hello', name, age)
 
