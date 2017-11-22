@@ -5,12 +5,13 @@
 print("This program will tell the user the GC content of a DNA sequence")
 
 #the sequence to count
-sequence = 'ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT'
+##sequence = 'ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT'
 
 #this asks the user for the code
 sequence = input(print('What is your DNA code?'))
-
-
+#upper function does not appear to work, .capitalised tried as well but did not work
+sequence.upper()
+print(sequence)
 
 #counts the number of C's and return s
 numC = sequence.count('C')
