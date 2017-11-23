@@ -8,10 +8,10 @@ print("This program will tell the user the GC content of a DNA sequence")
 ##sequence = 'ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT'
 
 #this asks the user for the code
-sequence = input(print('What is your DNA code?'))
-#upper function does not appear to work, .capitalised tried as well but did not work
-sequence.upper()
-print(sequence)
+sequence = input('What is your DNA code?')
+#changes overwrites the variable with an uppercase version
+sequence = sequence.upper()
+print(sequence.upper())
 
 #counts the number of C's and return s
 numC = sequence.count('C')
