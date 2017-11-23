@@ -7,7 +7,8 @@ sequence = 'ATCGATCGATCGATCGACTGACTAGTCATAGCTATGCATGTAGCTACTCGATCGATCGATCGATCGAT
 
 # Finding the two exons,    notation used is 'string[start:end]' note start is inclusive, end is not
 exon1 = sequence[0:65]
-exon2 = sequence[91:len(sequence)]
+exon2 = sequence[91:]
+
 
 # Printing the final output
 print('The coding sequence is.')
