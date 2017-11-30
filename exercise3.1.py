@@ -12,13 +12,17 @@
 #        Output wated to outfile
 # Stop
 
-
+# Opening the files for input and output
 inFile = open('/Users/19ecornish/Downloads/exercise3.1_InputFile.txt')
 outFile = open('exercise3.1_Output', 'w')
 
+# Going through each line in the file
 for line in inFile:
+    # Finds the length of the line
     length = len(line)
-    cutPoint = (length - 14)
-    trimmedSequence = line[:cutPoint]
-    print('Processed sequence with length {0}'.format(cutPoint))
+    # Cuts the line at the right spot
+    trimmedSequence = line[14:length]
+    # Prints the length
+    print('Processed sequence with length {0}'.format(trimmedSequence))
+    # Saves the trimmed sequence to the output file
     outFile.write(trimmedSequence)
