@@ -1,0 +1,17 @@
+
+Finding a DNA fragment in a suspect sequence
+
+Pseudocode
+    sourceFile_sequence = file containing suspect sequence gained from user
+    variable(sequence) = read file
+    sourceFile_fragment = file containing fragment
+    variable(fragment) = read file
+    variable(fragLocation) = find in sequence(fragment)
+
+
+Variables
+    sourceFile_sequence         is the file taken from the user containing the suspect sequence
+    sequence                    is the continents of sourceFile_sequence read to a string
+    sourceFile_fragment         is the file taken from the user containing the DNA fragment
+    fragment                    is the continents of sourceFile_fragment read to a string
+    fragLocation                used to store the location of the DNA fragment

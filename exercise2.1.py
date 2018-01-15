@@ -6,7 +6,7 @@
 #sourcefile = open('/Users/19ecornish/Downloads/exercise2.1-sourcefile.txt')
 
 # Asks the users for the file
-sourcefile=open(input('Please the file directory for the file you want to be red and split'))
+sourcefile=open(input('Please the file directory for the file you want to be read and split'))
 # Reads the file and places its content into a variable as a string
 sequence = sourcefile.read()
 
