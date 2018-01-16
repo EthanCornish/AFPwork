@@ -19,3 +19,9 @@ exercise3.1 was the Processing DNA into a file
 Chapter 4-Functions-Tutorial was a basic tutorial on creating and calling functions
 functionsTasks_functionPractice contains the function library for a metric to imperial converter
 functionsTasks_functionPracticeUsingMenus has is the main code including a menu system that uses the function library
+
+HolidayHomework_Part1-PreCoding was the pseudocode and variable list for the first part of the holiday assignment
+HolidayHomework_Part1-Coding was the coding for the first part of the holiday assignment
+
+HolidayHomework_Part2-PreCoding was the pseudocode and variable list for the second part of the holiday assignment
+HolidayHomework_Part2-Coding was the coding for the second part of the holiday assignment
